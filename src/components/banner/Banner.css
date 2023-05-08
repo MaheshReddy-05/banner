@@ -1,0 +1,17 @@
+@import "animate.css";
+
+.banner-img {
+    opacity: 0;
+    animation: backInRight 1s 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.heading-1 {
+    animation: fadeInUpBig 1s 0.5s;
+    animation-fill-mode: backwards;
+}
+
+.heading-2 {
+    animation: fadeInUp 1s 1.2s;
+    animation-fill-mode: backwards;
+}
