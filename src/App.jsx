@@ -3,12 +3,15 @@ import Navbar from "./components/nav/Navbar";
 
 function App() {
   return (
-    <div className="">
+    <div className="overflow-hidden bg-[#292d3e]">
+      <div className="mx-20">
         <Navbar></Navbar>
-        <div className='ml-30'> 
+        <div className=''> 
           <Banner ></Banner>
           <Banner ></Banner>
         </div>
+
+      </div>
     </div>
   );
 }
