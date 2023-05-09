@@ -12,17 +12,17 @@ function Banner() {
         delaySpeed: 2000,
     });
     return (
-        <div className=' bg-[#292d3e]  overflow-hidden flex flex-row  border-b-[1px] border-b-black'>
-            <div className='basis-1/2 pt-20'>
+        <div className=' bg-[#292d3e]  overflow-hidden  flex flex-row  border-b-[1px] border-b-black items-center'>
+            <div className='basis-1/2 '>
                 <h2 className='font-bold text-4xl text-rose-500 heading-1'> Learn With {" "}
                     <span className='text-4xl text-[#e3e3e3]'>{text}</span>
                     <Cursor
-                        cursorBlinking={false}
+                        cursorBlinking={true}
                         cursorColor="#e3e3e3"
                         cursorStyle={"_"}
                     />
                 </h2>
-                <h1 className='text-2xl  font-normal text-[#e3e3e3] heading-2'>
+                <h1 className='text-2xl  font-normal text-[#e3e3e3] pt-5 pb-2'>
                     The Ultimate Guide To Ace <br />
                     MAANG Interviews.
                 </h1>
@@ -30,7 +30,7 @@ function Banner() {
 
             </div>
             <div className='basis-1/2'>
-                <img className=' bg-[#292d3e]  banner-img w-5/6 ' src={ban} alt="" />
+                <img className=' bg-[#292d3e]  banner-img w-4/5   h-auto' src={ban} alt="" />
             </div>
         </div>
     )
