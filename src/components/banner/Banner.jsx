@@ -13,7 +13,7 @@ function Banner() {
     });
     return (
         <div className=' bg-[#111827]  overflow-hidden  flex  border-b-[1px] border-b-black items-center'>
-            <div className='basis-1/2 container w-32 h-32 flex pl-20'>
+            <div className='basis-1/2 container w-64 h-32 flex '>
                 <div >
                     <h2 className='font-bold text-4xl text-rose-500 heading-1'> Learn With {" "}
                         <span className='text-4xl text-[#e3e3e3]'>{text}</span>
