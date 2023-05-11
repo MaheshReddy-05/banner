@@ -22,7 +22,7 @@ function Banner() {
                         cursorStyle={"_"}
                     />
                 </h2>
-                <h1 className='text-2xl  font-normal text-[#e3e3e3] pt-5 pb-2'>
+                <h1 className='text-2xl  font-normal text-[#e3e3e3] pt-5 pb-2 heading-2'>
                     The Ultimate Guide To Ace <br />
                     MAANG Interviews.
                 </h1>
