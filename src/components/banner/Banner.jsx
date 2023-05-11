@@ -31,7 +31,7 @@ function Banner() {
           </div>
         </div>
         <div className="w-1/2">
-          <img className="bg-[#111827] banner-img w-auto" src={ban} alt="" />
+          <img className="bg-[#111827] banner-img w-auto " src={ban} alt="" />
         </div>
       </div>
     </div>
