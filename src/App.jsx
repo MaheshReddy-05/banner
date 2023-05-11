@@ -21,7 +21,7 @@ function App() {
           </div>
       </div>
       <div  className=" bg-gray-800">
-        <div className="">
+        <div className="mx-20">
               <SocialMedia></SocialMedia>
         </div>
       </div>
