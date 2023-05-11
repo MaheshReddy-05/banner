@@ -57,13 +57,13 @@ function Footer() {
             </ul>
           </div>
           <div className="w-full md:w-1/4">
-            <h5 className="text-lg font-semibold text-white mb-4">Newsletter</h5>
-            <p className="text-gray-400">Subscribe to our newsletter to receive updates and exclusive offers.</p>
+            <h5 className="text-lg font-[Poppins] text-white mb-4">Newsletter</h5>
+            <p className="text-gray-400 font-[Poppins]">Subscribe to our newsletter to receive updates and exclusive offers.</p>
             {/* Newsletter form can be added here */}
           </div>
         </div>
         <hr className="border-gray-700 my-8" />
-        <div className="text-gray-400 text-center">
+        <div className="text-gray-400 text-center font-[Poppins]">
           &copy; {new Date().getFullYear()} Your Company. All rights reserved.
         </div>
       </div>

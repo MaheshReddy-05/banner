@@ -7,7 +7,7 @@ import Footer from './components/footer/Footer';
 
 function App() {
   return (
-    <div>
+    <div className='w-full overflow-hidden'>
       <div className="bg-[#111827]">
         <div className="">
           <Navbar></Navbar>
