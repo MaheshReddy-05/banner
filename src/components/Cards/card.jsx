@@ -63,11 +63,11 @@ function Card() {
     <div className="bg-gray-800 py-4">
       <div className="container mx-auto px-4">
         <div className=" justify-between">
-        <div className="flex items-center justify-center">
+        {/* <div className="flex items-center justify-center">
           <h1 className="text-white text-center text-3xl whitespace-nowrap">Social Media Followers</h1>
           <br></br>
           <br></br>
-        </div>
+        </div> */}
           <div className="flex items-center">
             <div className="basis-1/5 text-center mr-4">
               <h2 className="text-white text-2xl font-bold">{youtubeFollowers}</h2>
