@@ -12,8 +12,8 @@ function Banner() {
         delaySpeed: 2000,
     });
     return (
-        <div className=' bg-[#292d3e]  overflow-hidden  flex flex-row  border-b-[1px] border-b-black items-center'>
-            <div className='basis-1/2 '>
+        <div className=' bg-[#111827]  overflow-hidden  flex flex-row  border-b-[1px] border-b-black items-center'>
+            <div className='basis-1/2 container w-64 h-32'>
                 <h2 className='font-bold text-4xl text-rose-500 heading-1'> Learn With {" "}
                     <span className='text-4xl text-[#e3e3e3]'>{text}</span>
                     <Cursor
@@ -30,7 +30,7 @@ function Banner() {
 
             </div>
             <div className='basis-1/2'>
-                <img className=' bg-[#292d3e]  banner-img w-4/5   h-auto' src={ban} alt="" />
+                <img className=' bg-[#111827]  banner-img w-4/5   h-auto' src={ban} alt="" />
             </div>
         </div>
     )
