@@ -1,5 +1,6 @@
 import Banner from "./components/banner/Banner";
 import Navbar from "./components/nav/Navbar";
+import Card from "./components/Cards/Card"
 
 function App() {
   return (
@@ -8,8 +9,8 @@ function App() {
         <Navbar></Navbar>
         <div className=''> 
           <Banner ></Banner>
-          <Banner ></Banner>
         </div>
+          <Card></Card>
 
       </div>
     </div>
