@@ -99,7 +99,7 @@ function SocialMedia() {
                 {faangHires}
                 {"K+"}
               </h2>
-              <p className="text-gray-400 text-sm">People Got into FAANG</p>
+              <p className="text-gray-400 text-sm">People into FAANG</p>
             </div>
 
             <div className="border border-white h-16 heading-1"> </div>
