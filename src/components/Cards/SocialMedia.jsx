@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-function Card() {
+function SocialMedia() {
   const [youtubeFollowers, setYoutubeFollowers] = useState(0);
   const [instagramFollowers, setInstagramFollowers] = useState(0);
   const [linkedinFollowers, setLinkedinFollowers] = useState(0);
@@ -96,4 +96,4 @@ function Card() {
   );
 }
 
-export default Card;
+export default SocialMedia;
