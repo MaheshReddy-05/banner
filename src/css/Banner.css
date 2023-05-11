@@ -11,6 +11,10 @@
     animation-fill-mode: backwards;
 }
 
+.banner-heading {
+    width: 900px;
+}
+
 .heading-2 {
     animation: fadeInUp 1s 1.2s;
     animation-fill-mode: backwards;
