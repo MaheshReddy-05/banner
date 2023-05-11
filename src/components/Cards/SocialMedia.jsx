@@ -8,7 +8,7 @@ function SocialMedia() {
   const [telegramFollowers, setTelegramFollowers] = useState(0);
 
   // Set your desired follower counts
-  const youtubeCount = 1000;
+  const youtubeCount = 900;
   const instagramCount = 500;
   const linkedinCount = 200;
   const faangCount = 300;
@@ -60,17 +60,12 @@ function SocialMedia() {
   }, []); // Empty dependency array to run the effect only once
 
   return (
-    <div className="bg-gray-800 py-4">
-      <div className="container mx-auto px-4">
+    <div className="bg-gray-800 py-8">
+      <div className="container mx-auto px-16">
         <div className=" justify-between">
-        {/* <div className="flex items-center justify-center">
-          <h1 className="text-white text-center text-3xl whitespace-nowrap">Social Media Followers</h1>
-          <br></br>
-          <br></br>
-        </div> */}
           <div className="flex items-center">
-            <div className="basis-1/5 text-center mr-4">
-              <h2 className="text-white text-2xl font-bold">{youtubeFollowers}</h2>
+            <div className="basis-1/5 text-center mr-4 ">
+              <h2 className="text-white text-2xl font-bold">{youtubeFollowers}{" K+"}</h2>
               <p className="text-gray-400 text-sm">YouTube Followers</p>
             </div>
             <div className="basis-1/5 text-center mr-4">

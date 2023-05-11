@@ -6,12 +6,12 @@ function App() {
   return (
     <div>
       <div className="bg-[#111827]">
-        <div className="mx-20 sm:mx-40">
+        <div className="mx-40">
           <Navbar></Navbar>
         </div>
       </div>
       <div className="bg-[#111827]">
-        <div className="flex justify-center mx-40 ">
+        <div className=" flex justify-center mx-60">
               <div className=""> 
                 <Banner ></Banner>
               </div>
@@ -19,7 +19,7 @@ function App() {
           </div>
       </div>
       <div  className=" bg-gray-800">
-        <div className="mx-40">
+        <div className="mx-60">
                   <SocialMedia></SocialMedia>
         </div>
       </div>
