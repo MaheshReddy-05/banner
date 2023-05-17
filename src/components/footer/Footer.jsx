@@ -64,7 +64,7 @@ function Footer() {
         </div>
         <hr className="border-gray-700 my-8" />
         <div className="text-gray-400 text-center font-[Poppins]">
-          &copy; {new Date().getFullYear()} Your Company. All rights reserved.
+          &copy; {new Date().getFullYear()} Coding Decoded. All rights reserved.
         </div>
       </div>
     </footer>

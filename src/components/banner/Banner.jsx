@@ -18,7 +18,7 @@ function Banner() {
       <div className="container  flex items-center">
         <div className="w-1/2 overflow-hidden">
           <div className="container">
-            <h2 className="font-bold text-4xl text-rose-500 heading-1 banner-heading">
+            <h2 className="font-bold text-4xl text-rose-500 heading-1">
               Learn With{' '}
               <span className="text-4xl text-[#e3e3e3]">{text}</span>
               <Cursor cursorBlinking={true} cursorColor="#e3e3e3" cursorStyle={'_'} />
