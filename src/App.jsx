@@ -2,14 +2,13 @@ import React from 'react';
 import Banner from "./components/banner/Banner";
 import Navbar from "./components/nav/Navbar";
 import SocialMedia from "./components/Cards/SocialMedia"
-import Scp from "./components/testimons/Scp";
 import Footer from './components/footer/Footer';
 import GridComponent from './components/Cards/GridComponent';
 import FAQComponent from './components/FAQ/FAQComponent';
 
 function App() {
   return (
-    <div className='mx-auto  overflow-hidden'>
+    <div className='mx-auto  overflow-hidden '>
       <div className="bg-[#111827]">
         <div className="">
           <Navbar></Navbar>
@@ -29,7 +28,6 @@ function App() {
       </div>
       <div className="bg-[#111827]">
         <div className="mx-auto max-w-7xl">
-          <Scp></Scp>
         </div>
       </div>
       <div className=''>
