@@ -63,52 +63,52 @@ function SocialMedia() {
   }, []);
 
   return (
-    <div className="bg-gray-800 py-8">
-      <div className="container mx-auto px-16">
+    <div className="bg-gray-800 ">
+      <div className="container mx-auto py-16">
         <div className=" justify-between">
           <div className="flex items-center">
             <div className="basis-1/5 text-center mr-4 heading-2 ">
-              <h2 className="text-white text-2xl font-bold">
+              <h2 className="text-white text-4xl font-bold">
                 {youtubeFollowers}
                 {"K+"}
               </h2>
-              <p className="text-gray-400 text-sm">YouTube Followers</p>
+              <p className="text-gray-400 text-xl">YouTube Followers</p>
             </div>
-            <div className="border border-white h-16 heading-1"> </div>
+            <div className="border border-white h-20 heading-1"> </div>
 
             <div className="basis-1/5 text-center mr-4 heading-2">
-              <h2 className="text-white text-2xl font-bold">
+              <h2 className="text-white text-4xl font-bold">
                 {instagramFollowers}
                 {"K+"}
               </h2>
-              <p className="text-gray-400 text-sm">Instagram Followers</p>
+              <p className="text-gray-400 text-xl">Instagram Followers</p>
             </div>
-            <div className="border border-white h-16 heading-1"> </div>
+            <div className="border border-white h-20 heading-1"> </div>
 
             <div className="basis-1/5 text-center mr-4 heading-2">
-              <h2 className="text-white text-2xl font-bold">
+              <h2 className="text-white text-4xl font-bold">
                 {linkedinFollowers}
                 {"K+"}
               </h2>
-              <p className="text-gray-400 text-sm">LinkedIn Followers</p>
+              <p className="text-gray-400 text-xl">LinkedIn Followers</p>
             </div>
 
-            <div className="border border-white h-16 heading-1"> </div>
+            <div className="border border-white h-20 heading-1"> </div>
             <div className="basis-1/5 text-center mr-4 heading-2">
-              <h2 className="text-white text-2xl font-bold">
+              <h2 className="text-white text-4xl font-bold">
                 {faangHires}
                 {"K+"}
               </h2>
-              <p className="text-gray-400 text-sm">People into FAANG</p>
+              <p className="text-gray-400 text-xl">People into FAANG</p>
             </div>
 
-            <div className="border border-white h-16 heading-1"> </div>
+            <div className="border border-white h-20 heading-1"> </div>
             <div className="basis-1/5 text-center mr-4 heading-2">
-              <h2 className="text-white text-2xl font-bold">
+              <h2 className="text-white text-4xl font-bold">
                 {telegramFollowers}
                 {"K+"}
               </h2>
-              <p className="text-gray-400 text-sm">Telegram Followers</p>
+              <p className="text-gray-400 text-xl">Telegram Followers</p>
             </div>
           </div>
         </div>

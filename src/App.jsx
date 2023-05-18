@@ -22,7 +22,7 @@ function App() {
           </div>
       </div>
       <div  className=" bg-gray-800">
-        <div className="mx-auto max-w-9xl">
+        <div className="mx-auto max-w-9xl ">
               <SocialMedia></SocialMedia>
         </div>
       </div>
