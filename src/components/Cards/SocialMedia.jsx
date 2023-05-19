@@ -2,14 +2,12 @@ import React, { useEffect, useState } from "react";
 
 function SocialMedia() {
   const [youtubeFollowers, setYoutubeFollowers] = useState(0);
-  const [instagramFollowers, setInstagramFollowers] = useState(0);
   const [linkedinFollowers, setLinkedinFollowers] = useState(0);
   const [faangHires, setFaangHires] = useState(0);
   const [telegramFollowers, setTelegramFollowers] = useState(0);
 
   // Set your desired follower counts
   const youtubeCount = 900;
-  const instagramCount = 500;
   const linkedinCount = 200;
   const faangCount = 300;
   const telegramCount = 400;
@@ -24,28 +22,21 @@ function SocialMedia() {
             }
             return prevFollowers;
           });
-  
-          setInstagramFollowers((prevFollowers) => {
-            if (prevFollowers < instagramCount) {
-              return prevFollowers + 1;
-            }
-            return prevFollowers;
-          });
-  
+
           setLinkedinFollowers((prevFollowers) => {
             if (prevFollowers < linkedinCount) {
               return prevFollowers + 1;
             }
             return prevFollowers;
           });
-  
+
           setFaangHires((prevFollowers) => {
             if (prevFollowers < faangCount) {
               return prevFollowers + 1;
             }
             return prevFollowers;
           });
-  
+
           setTelegramFollowers((prevFollowers) => {
             if (prevFollowers < telegramCount) {
               return prevFollowers + 1;
@@ -53,60 +44,44 @@ function SocialMedia() {
             return prevFollowers;
           });
         }, 10); // Adjust the interval as per your desired animation speed
-  
+
         return () => clearInterval(interval);
       }, 1000); // Delay of 500ms before starting the animation
-  
     };
-  
+
     animateFollowers();
   }, []);
 
   return (
-    <div className="bg-gray-800 ">
-      <div className="container mx-auto py-16">
-        <div className=" justify-between">
-          <div className="flex items-center">
-            <div className="basis-1/5 text-center mr-4 heading-2 ">
+    <div>
+      <div className="mx-auto max-w-7xl">
+        <div className="mx-auto sm:max-w-6xl py-16 grid grid-cols-1 gap-y-4 text-center sm:grid-cols-2 sm:gap-12 lg:grid-cols-4">
+          <div>
+            <div className="text-center mb-8">
               <h2 className="text-white text-4xl font-bold">
-                {youtubeFollowers}
-                {"K+"}
+                {youtubeFollowers}K+
               </h2>
               <p className="text-gray-400 text-xl">YouTube Followers</p>
             </div>
-            <div className="border border-white h-20 heading-1"> </div>
-
-            <div className="basis-1/5 text-center mr-4 heading-2">
+          </div>
+          <div>
+            <div className="text-center mb-8">
               <h2 className="text-white text-4xl font-bold">
-                {instagramFollowers}
-                {"K+"}
-              </h2>
-              <p className="text-gray-400 text-xl">Instagram Followers</p>
-            </div>
-            <div className="border border-white h-20 heading-1"> </div>
-
-            <div className="basis-1/5 text-center mr-4 heading-2">
-              <h2 className="text-white text-4xl font-bold">
-                {linkedinFollowers}
-                {"K+"}
+                {linkedinFollowers}K+
               </h2>
               <p className="text-gray-400 text-xl">LinkedIn Followers</p>
             </div>
-
-            <div className="border border-white h-20 heading-1"> </div>
-            <div className="basis-1/5 text-center mr-4 heading-2">
-              <h2 className="text-white text-4xl font-bold">
-                {faangHires}
-                {"K+"}
-              </h2>
+          </div>
+          <div>
+            <div className="text-center mb-8">
+              <h2 className="text-white text-4xl font-bold">{faangHires}K+</h2>
               <p className="text-gray-400 text-xl">People into FAANG</p>
             </div>
-
-            <div className="border border-white h-20 heading-1"> </div>
-            <div className="basis-1/5 text-center mr-4 heading-2">
+          </div>
+          <div>
+            <div className="text-center mb-8">
               <h2 className="text-white text-4xl font-bold">
-                {telegramFollowers}
-                {"K+"}
+                {telegramFollowers}K+
               </h2>
               <p className="text-gray-400 text-xl">Telegram Followers</p>
             </div>

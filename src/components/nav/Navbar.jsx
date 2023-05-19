@@ -1,12 +1,13 @@
 import React from 'react'
-import {logo} from '../../assets/index'
 import  '../../css/Nav.css'
 
 export default function Navbar() {
   return (
     <div className='nav-main'>
         <div>
-          <img src={logo} alt="logo" />
+          <h1 className=''> h</h1>
+          <h1 className=''> h</h1>
+          <h1 className=''> h</h1>
         </div>
     </div>
   )

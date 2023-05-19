@@ -1,23 +1,12 @@
-import logo from "./images/logo.png";
-import bannerImg from "./images/bannerImg.png";
-import projectOne from "./images/projects/projectOne.jpg";
-import projectTwo from "./images/projects/projectTwo.jpg";
-import projectThree from "./images/projects/projectThree.jpeg";
-import testimonialOne from "./images/testmonial/testimonialOne.png";
-import testimonialTwo from "./images/testmonial/testimonialTwo.png";
-import quote from "./images/testmonial/quote.png";
-import contactImg from "./images/contact/contactImg.png";
 import ban from "./images/Ban.png";
-
+import linkedin from "./images/JCF/in.jpg"
+import telegram from "./images/JCF/tlg.jpg"
+import youtube from "./images/JCF/yt.jpg"
+import twitter from "./images/JCF/tw.jpg"
 export {
-  logo,
-  bannerImg,
-  projectOne,
-  projectTwo,
-  projectThree,
-  testimonialOne,
-  testimonialTwo,
-  quote,
-  contactImg,
   ban,
+  linkedin,
+  telegram,
+  youtube,
+  twitter,
 };
