@@ -6,6 +6,7 @@ import Footer from './components/footer/Footer';
 import GridComponent from './components/Cards/GridComponent';
 import FAQComponent from './components/FAQ/FAQComponent';
 import Community from './components/community/Community';
+import WYG from './components/whatyouget/WYG';
 
 function App() {
   return (
@@ -34,6 +35,11 @@ function App() {
       <div className=''>
         <div className='mx-auto max-w-7xl flex justify-center'>
           <GridComponent></GridComponent>
+        </div>
+      </div>
+      <div>
+        <div>
+          <WYG></WYG>
         </div>
       </div>
       <div>
