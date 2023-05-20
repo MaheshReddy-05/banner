@@ -3,6 +3,7 @@ import "../../css/Banner.css";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import Button from "../materialUI/Buttons";
 import { ban } from "../../assets/";
+import Lotti from "../lotti/Lotti";
 
 function Banner() {
   const [text] = useTypewriter({
@@ -15,7 +16,7 @@ function Banner() {
 
   return (
     <div className="relative bg-[#111827] w-full overflow-hidden border-b-[1px] border-b-black">
-      <div className="mx-auto my-9 max-w-7xl px-4 sm:px-6 md:my-24 lg:my-32 lg:px-8">
+      <div className="mx-auto my-9  px-4 sm:px-6 md:my-24 lg:my-32 lg:px-8">
         <div className="container  flex items-center">
           <div className="w-1/2 overflow-hidden">
             <div className="container">
@@ -36,7 +37,9 @@ function Banner() {
             </div>
           </div>
           <div className="w-1/2">
-            <img className="bg-[#111827] banner-img w-auto " src={ban} alt="" />
+            <div className="banner-img">
+             <Lotti></Lotti>
+            </div>
           </div>
         </div>
       </div>
