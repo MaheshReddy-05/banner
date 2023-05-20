@@ -1,24 +1,26 @@
 import React from "react";
 import { youtube } from "../../assets";
-import {LLD} from "../lotti/Lotti.jsx";
+import { LLD } from "../lotti/Lotti.jsx";
 export default function () {
   return (
     <div>
-      <div className="mx-auto py-auto max-w-7xl px-4 sm:px-6 md:my-24 lg:my-32 lg:px-8">
+      <div className="mx-auto max-w-6xl px-4 sm:px-6 md:my-24 lg:my-24 lg:px-8">
         <div>
-        <div className="text-center">
-          <div className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
-            What you get with CD
+          <div className="text-center">
+            <div className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
+              What you get with CD
+            </div>
+            <div className="mt-4 text-2sm leading-6 tracking-wide text-gray-500">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat
+              et, <br />
+              id placeat repellendus enim perspiciatis facilis voluptatum itaque
+              nulla aspernatur.
+            </div>
           </div>
-          <div className="mt-4 text-2sm leading-6 tracking-wide text-gray-500">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat et, <br />
-            id placeat repellendus enim perspiciatis facilis voluptatum itaque nulla aspernatur.
-          </div>
-        </div>
-          <div className="grid grid-cols-3 gap-8">
-            <div className="col-span-3 grid grid-cols-2 py-10">
+          <div className=" ">
+            <div className="grid grid-cols-2 ">
               <div className="col-span-1 my-auto">
-                <div className="text-3xl font-bold leading-tight text-rose-500 sm:text-4xl lg:text-[30px]">
+                <div className="text-3xl font-bold leading-tight text-rose-500 sm:text-4xl lg:text-[30px] ">
                   Data Structures
                 </div>
                 <div className="text-[16px] pt-5">
@@ -30,17 +32,17 @@ export default function () {
                   and originality.
                 </div>
               </div>
-              <div className="col-span-1 flex items-center justify-center">
+              <div className="col-span-1 my-auto ">
                 <LLD></LLD>
               </div>
             </div>
-            <div className="col-span-3 grid grid-cols-2 py-10 ">
-              <div className="col-span-1 my-auto justify-center">
-               <LLD></LLD>
+            <div className="grid grid-cols-2 ">
+              <div className="col-span-1 my-auto">
+                <LLD></LLD>
               </div>
               <div className="col-span-1 my-auto">
                 <div className="text-3xl font-bold leading-tight text-rose-500 sm:text-4xl lg:text-[30px]">
-                  Low Level System Design 
+                  Low Level System Design
                 </div>
                 <div className="text-[16px] pt-5">
                   Protect your content from unauthorized use and plagiarism with
@@ -52,9 +54,9 @@ export default function () {
                 </div>
               </div>
             </div>
-            <div className="col-span-3 grid grid-cols-2 py-10">
+            <div className="grid grid-cols-2 ">
               <div className="col-span-1 my-auto">
-                <div className="text-3xl font-bold leading-tight text-rose-500 sm:text-4xl lg:text-[30px] my-auto">
+                <div className="text-3xl font-bold leading-tight text-rose-500 sm:text-4xl lg:text-[30px] ">
                   Data Structures
                 </div>
                 <div className="text-[16px] pt-5">
@@ -66,17 +68,17 @@ export default function () {
                   and originality.
                 </div>
               </div>
-              <div className="col-span-1 flex items-center justify-center my-auto">
-              <LLD></LLD>
+              <div className="col-span-1 my-auto">
+                <LLD></LLD>
               </div>
             </div>
-            <div className="col-span-3 grid grid-cols-2 py-10 ">
-              <div className="col-span-1 my-auto justify-center">
-               <LLD></LLD>
+            <div className="grid grid-cols-2  ">
+              <div className="col-span-1 my-auto ">
+                <LLD></LLD>
               </div>
               <div className="col-span-1 my-auto">
                 <div className="text-3xl font-bold leading-tight text-rose-500 sm:text-4xl lg:text-[30px]">
-                  Low Level System Design 
+                  Low Level System Design
                 </div>
                 <div className="text-[16px] pt-5">
                   Protect your content from unauthorized use and plagiarism with

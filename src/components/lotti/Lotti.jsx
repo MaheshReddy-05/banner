@@ -4,7 +4,7 @@ import manm from '../../assets/images/JCF/manandrobo.json';
 import lld from '../../assets/images/JCF/LLD.json';
 
 const style = {
-  height: 300,
+  height: 250,
 };
 
 export default function Lotti() {
