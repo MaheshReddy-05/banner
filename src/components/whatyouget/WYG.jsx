@@ -7,7 +7,7 @@ export default function () {
         <div>
           <div className="text-center">
             <div className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
-              What you get with CD
+               Why Coding Decoded?
             </div>
             <div className="mt-4 text-2sm leading-6 tracking-wide text-gray-500">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat
