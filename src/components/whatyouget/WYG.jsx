@@ -1,5 +1,4 @@
 import React from "react";
-import { youtube } from "../../assets";
 import { LLD } from "../lotti/Lotti.jsx";
 export default function () {
   return (

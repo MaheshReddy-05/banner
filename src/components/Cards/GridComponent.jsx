@@ -5,11 +5,10 @@ const GridComponent = () => {
     <div class="mx-auto my-9 max-w-7xl px-4 sm:px-6 md:my-24 lg:my-32 lg:px-8">
       <div class="mx-auto max-w-xl text-center">
         <h2 class="mt-6 text-3xl pt-6 font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
-          Coding Decoded helps you in reaching sky
+            Coding Decoded Principles
         </h2>
         <p class="mt-4 text-base leading-relaxed text-gray-600">
-          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-          sint. Velit officia consequat duis enim velit mollit.
+        We believe in our audience and would do anything to bolster it up 
         </p>
       </div>
       <div class="mt-12 grid grid-cols-1 gap-y-8 text-center sm:grid-cols-2 sm:gap-12 lg:grid-cols-4">
@@ -32,11 +31,10 @@ const GridComponent = () => {
             </svg>
           </div>
           <h3 class="mt-8 text-lg font-semibold text-black">
-            Secured Payments
+          No Click Baits
           </h3>
           <p class="mt-4 text-sm text-gray-600">
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-            sint. Velit officia consequat duis enim velit mollit.
+          Clicks Baits mislead the audience. We respect the audience time and values it the most. 
           </p>
         </div>
         <div>
@@ -57,11 +55,10 @@ const GridComponent = () => {
             </svg>
           </div>
           <h3 class="mt-8 text-lg font-semibold text-black">
-            Fast &amp; Easy to Load
+          No false claims
           </h3>
           <p class="mt-4 text-sm text-gray-600">
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-            sint. Velit officia consequat duis enim velit mollit.
+              It is all the game of trust, and we never indulge giving false hopes to anyone  
           </p>
         </div>
         <div>
@@ -82,11 +79,11 @@ const GridComponent = () => {
             </svg>
           </div>
           <h3 class="mt-8 text-lg font-semibold text-black">
-            Light &amp; Dark Version
+          Be Genuine
           </h3>
           <p class="mt-4 text-sm text-gray-600">
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-            sint. Velit officia consequat duis enim velit mollit.
+          
+Our Authenticity is our asset, you can question us any time and we are ready with answers
           </p>
         </div>
         <div>
@@ -106,10 +103,10 @@ const GridComponent = () => {
               <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon>
             </svg>
           </div>
-          <h3 class="mt-8 text-lg font-semibold text-black">Filter Blocks</h3>
+          <h3 class="mt-8 text-lg font-semibold text-black">Let us grow together</h3>
           <p class="mt-4 text-sm text-gray-600">
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-            sint. Velit officia consequat duis enim velit mollit.
+          
+We believe in growing together, Let us do it for the community and built it together
           </p>
         </div>
       </div>

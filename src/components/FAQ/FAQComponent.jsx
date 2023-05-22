@@ -1,6 +1,6 @@
 const FAQComponent = () => {
   return (
-    <section className="mx-auto max-w-7xl bg-gray-50 px-2 py-10 md:px-0">
+    <section className="mx-auto max-w-7xl bg-gray-200 px-2 py-10 md:px-0">
       <div>
         <div className="mx-auto max-w-2xl lg:text-center">
           <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">

@@ -47,7 +47,7 @@ function App() {
           <Community></Community>
         </div>
       </div>
-      <div>
+      <div className='bg-gray-200'>
         <div className='mx-40'>
           <FAQComponent></FAQComponent>
         </div>
