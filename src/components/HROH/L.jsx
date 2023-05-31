@@ -104,13 +104,13 @@ const L = () => {
 
   return (
     <div>
-      <div className="mx-auto max-w-6xl px-4 sm:px-6 md:my-24 lg:my-24 lg:px-8">
+      <div className="mx-auto max-w-6xl px-4 sm:px-6 md:my-24 lg:my-16 lg:px-8">
         <div className="contributors">
           <div className="text-center">
             <div className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
               Contributors
             </div>
-            <div className="mt-4 text-2sm leading-6 tracking-wide text-gray-500">
+            <div className="my-4 mb-10 text-2sm leading-6 tracking-wide text-gray-500">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores,
               fugiat.
             </div>

@@ -1,62 +1,66 @@
+import { useState, useEffect, useRef } from "react";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
-import { AutoScroll } from "@splidejs/splide-extension-auto-scroll";
 import "@splidejs/splide/dist/css/splide.min.css";
+import Iteam from "../slider/Iteam";
 
 export default function Placed() {
+  const splideRef = useRef(null);
+  const [activeSlide, setActiveSlide] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      splideRef.current.go(">")
+    }, 5000);
+
+    return () => {
+      clearInterval(interval);
+    };
+  }, []);
+
+  const onSlideMoved = (splide) => {
+    setActiveSlide(splide.index % 3);
+  };
+
   return (
     <Splide
+      ref={splideRef}
       options={{
         type: "loop",
+        height: "30rem",
         drag: "free",
-        height: "20rem",
-        perPage: 5,
+        perPage: 1,
         arrows: false,
         pagination: false,
-        pauseOnHover: false,
+        pauseOnHover: false, // Set pauseOnHover to false to prevent scrolling on hover
         lazyLoad: "nearby",
-        autoScroll: {
-          speed: 1,
-          pauseOnHover: true,
-          rewind: false
-        },
-        gap: 10
+        gap: 5,
+        padding: {
+          right: "30%",
+          left: "37%"
+        }
       }}
-      extensions={{ AutoScroll }}
+      onMoved={onSlideMoved}
     >
       <SplideSlide>
-        <div className="p-10 bg-rose-500">
-            A
-        </div>
+        <Iteam></Iteam>
       </SplideSlide>
       <SplideSlide>
-        <div className="p-10 bg-rose-500">
-            A
-        </div>
+        <Iteam></Iteam>
       </SplideSlide>
       <SplideSlide>
-        <div className="p-10 bg-rose-500">
-            A
-        </div>
+        <Iteam></Iteam>
       </SplideSlide>
       <SplideSlide>
-        <div className="p-10 bg-rose-500">
-            A
-        </div>
+        <Iteam></Iteam>
       </SplideSlide>
       <SplideSlide>
-        <div className="p-10 bg-rose-500">
-            A
-        </div>
+        <Iteam></Iteam>
       </SplideSlide>
       <SplideSlide>
-        <div className="p-10 bg-rose-500">
-            A
-        </div>
+        <Iteam></Iteam>
       </SplideSlide>
       <SplideSlide>
-        <div className="p-10 bg-rose-500">
-            A
-        </div>
+        <Iteam></Iteam>
       </SplideSlide>
     </Splide>
   );
