@@ -1,16 +1,8 @@
 import React from "react";
-import "../../css/Banner.css";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
-import Button from "../materialUI/Buttons";
 import Lotti from "../lotti/Lotti";
 
 function Banner() {
-  const githubUsernames = [
-    "MaheshReddy-05",
-    "MaheshReddy-05",
-    "MaheshReddy-05",
-    "MaheshReddy-05",
-  ];
   const [text] = useTypewriter({
     words: [
       "from the youngest SDE-V!",
@@ -42,21 +34,6 @@ function Banner() {
                 The Ultimate Guide To Ace <br />
                 MAANG Interviews and become great Engineers
               </h1>
-              <Button />
-              <div className="mx-auto ml-5 my-10 flex flex-wrap -space-x-1.5">
-                {githubUsernames.map((username) => (
-                  <img
-                    key={username}
-                    src={`https://github.com/${username}.png?size=60`}
-                    alt={`User ${username}`}
-                    loading="lazy"
-                    className="h-6 w-6 rounded-full border-2 border-solid border-white transition  lg:h-12 lg:w-12"
-                  />
-                ))}
-                <div className="my-auto pl-5 text-white lg:text-xl">
-                  500+ Developers
-                </div>
-              </div>
             </div>
           </div>
           <div className="w-1/2">
@@ -71,6 +48,3 @@ function Banner() {
 }
 
 export default Banner;
-
-
-// hover:-translate-y-2 hover:scale-150
