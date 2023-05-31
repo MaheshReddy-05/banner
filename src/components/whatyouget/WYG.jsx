@@ -4,7 +4,7 @@ export default function () {
   return (
     <div>
       <div className="mx-auto max-w-6xl px-4 sm:px-6 md:my-24 lg:my-24 lg:px-8">
-        <div>
+        <div >
           <div className="text-center">
             <div className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
                Why Coding Decoded?
@@ -16,7 +16,7 @@ export default function () {
               nulla aspernatur.
             </div>
           </div>
-          <div className=" ">
+          <div className="pt-10">
             <div className="grid grid-cols-2 ">
               <div className="col-span-1 my-auto">
                 <div className="text-3xl font-bold leading-tight text-rose-500 sm:text-4xl lg:text-[30px] ">

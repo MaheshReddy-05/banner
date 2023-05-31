@@ -1,8 +1,8 @@
 import React from 'react';
-import Banner from "./components/banner/Banner";
+import Banner from "./components/hero/Hero";
 import SocialMedia from "./components/Cards/SocialMedia"
 import Footer from './components/footer/Footer';
-import GridComponent from './components/Cards/GridComponent';
+import CDP from './components/Cards/CDP';
 import FAQComponent from './components/FAQ/FAQComponent';
 import Community from './components/community/Community';
 import WYG from './components/whatyouget/WYG';
@@ -19,18 +19,14 @@ function App() {
               </div>
           </div>
       </div>
-      <div  className=" bg-gray-800">
-        <div className="mx-auto max-w-9xl ">
+      <div  className=" bg-white">
+        <div className="mx-auto max-w-7xl ">
               <SocialMedia></SocialMedia>
-        </div>
-      </div>
-      <div className="bg-[#111827]">
-        <div className="mx-auto max-w-7xl">
         </div>
       </div>
       <div className=''>
         <div className='mx-auto max-w-7xl flex justify-center'>
-          <GridComponent></GridComponent>
+          <CDP></CDP>
         </div>
       </div>
       <div>
