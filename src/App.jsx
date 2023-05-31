@@ -8,6 +8,7 @@ import Community from './components/community/Community';
 import WYG from './components/whatyouget/WYG';
 import HROH from './components/HROH/HROH';
 import L from './components/HROH/L';
+import Slider from './components/carousel';
 
 function App() {
   return (
@@ -48,6 +49,7 @@ function App() {
       <div className='bg-gray-200'>
         <div className='mx-40'>
           <FAQComponent></FAQComponent>
+          <Slider/>
         </div>
       </div>
       <div className="bg-[#1f2937]">
