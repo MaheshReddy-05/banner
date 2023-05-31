@@ -3,8 +3,8 @@ import { useState, useEffect } from "react";
 const L = () => {
   const [loading, setLoading] = useState(true);
   const [repoForks, setRepoForks] = useState(0);
-  const [contributors, setContributors] = useState([]);
   const [repoStars, setRepoStars] = useState(0);
+  const [contributors, setContributors] = useState([]);
 
   useEffect(() => {
     fetch("https://api.github.com/repos/Sunchit/Coding-Decoded")
@@ -137,19 +137,19 @@ const L = () => {
               ))}
             </div>
           )}
-          <div className="stats flex justify-center mt-4">
+          <div className="stats flex flex-col sm:flex-row justify-center mt-4">
             <div className="stats-item mx-4">
-              <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+              <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mb-2 sm:mb-0 sm:mr-2 w-full sm:w-auto">
                 {contributors.length} Contributors
               </button>
             </div>
             <div className="stats-item mx-4">
-              <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+              <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mb-2 sm:mb-0 sm:mr-2 w-full sm:w-auto">
                 {repoForks} Forks
               </button>
             </div>
             <div className="stats-item mx-4">
-              <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+              <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mb-2 sm:mb-0 sm:mr-2 w-full sm:w-auto">
                 {repoStars} Stars
               </button>
             </div>
