@@ -7,6 +7,8 @@ import GridComponent from './components/Cards/GridComponent';
 import FAQComponent from './components/FAQ/FAQComponent';
 import Community from './components/community/Community';
 import WYG from './components/whatyouget/WYG';
+import HROH from './components/HROH/HROH';
+import L from './components/HROH/L';
 
 function App() {
   return (
@@ -40,6 +42,12 @@ function App() {
       <div>
         <div>
           <WYG></WYG>
+        </div>
+      </div>
+      <div>
+        <div>
+          <HROH></HROH>
+          <L></L>
         </div>
       </div>
       <div>
