@@ -1,16 +1,15 @@
 import React from "react";
-import { LLD } from "../lotti/Lotti.jsx";
 import { DS } from "../../assets";
 export default function () {
   return (
-    <div>
-      <div className="mx-auto max-w-6xl px-4 sm:px-6 md:my-24 lg:my-24 lg:px-8">
+    <div className="'bg-[#1c262c]">
+      <div className="mx-auto max-w-6xl px-4 sm:px-6 md:py-24 lg:py-24 lg:px-8">
         <div>
           <div className="text-center">
-            <div className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
+            <div className="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">
               Why Coding Decoded?
             </div>
-            <div className="mt-4 text-2sm leading-6 tracking-wide text-gray-500">
+            <div className="mt-4 text-2sm leading-6 tracking-wide text-[#717c9b]">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat
               et, <br />
               id placeat repellendus enim perspiciatis facilis voluptatum itaque
@@ -23,7 +22,7 @@ export default function () {
                 <div className="text-3xl font-bold leading-tight text-rose-500 sm:text-4xl lg:text-[30px] ">
                   Data Structures
                 </div>
-                <div className="text-[16px] pt-5">
+                <div className="text-[16px] pt-5 text-[#717c9b]">
                   A strong understanding of data structures allows candidates to
                   solve complex problems and demonstrate their ability to write
                   efficient code. We have detailed step by step detailed videos
@@ -42,7 +41,7 @@ export default function () {
                 <div className="text-3xl font-bold leading-tight text-rose-500 sm:text-4xl lg:text-[30px]">
                   Low Level System Design
                 </div>
-                <div className="text-[16px] pt-5">
+                <div className="text-[16px] pt-5 text-[#717c9b]">
                   Protect your content from unauthorized use and plagiarism with
                   regular scans. Stay ahead of the rapid creation of new content
                   by automatically monitoring and safeguarding your work. Gain
@@ -57,7 +56,7 @@ export default function () {
                 <div className="text-3xl font-bold leading-tight text-rose-500 sm:text-4xl lg:text-[30px] ">
                   Enhance your technical skills
                 </div>
-                <div className="text-[16px] pt-5">
+                <div className="text-[16px] pt-5 text-[#717c9b]">
                   Protect your content from unauthorized use and plagiarism with
                   regular scans. Stay ahead of the rapid creation of new content
                   by automatically monitoring and safeguarding your work. Gain
@@ -78,7 +77,7 @@ export default function () {
                 <div className="text-3xl font-bold leading-tight text-rose-500 sm:text-4xl lg:text-[30px]">
                   Strongest referral community
                 </div>
-                <div className="text-[16px] pt-5">
+                <div className="text-[16px] pt-5 text-[#717c9b]">
                   Protect your content from unauthorized use and plagiarism with
                   regular scans. Stay ahead of the rapid creation of new content
                   by automatically monitoring and safeguarding your work. Gain

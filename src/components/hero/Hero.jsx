@@ -17,7 +17,7 @@ function Banner() {
   });
 
   return (
-    <div className="relative bg-[#111827] w-full overflow-hidden ">
+    <div className="relative w-full overflow-hidden ">
       <div className="mx-auto px-4 sm:px-6 md:my-24 lg:my-32 lg:px-8">
         <div className="container  flex items-center">
           <div className="w-1/2 overflow-hidden">

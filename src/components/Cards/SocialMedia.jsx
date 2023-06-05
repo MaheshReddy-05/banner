@@ -47,8 +47,8 @@ function SocialMedia() {
   }, []);
 
   return (
-    <div className="bg-[#ffffff] ">
-      <div className="container mx-auto max-w-7xl mt-32">
+    <div className="">
+      <div className="container mx-auto max-w-7xl ">
         <div className="grid grid-cols-1 gap-y-4 text-center sm:grid-cols-2 sm:gap-12 lg:grid-cols-4">
           <div>
             <div className="text-center mb-8">

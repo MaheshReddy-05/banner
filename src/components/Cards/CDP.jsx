@@ -3,7 +3,7 @@ import { CB, FC, GT, Gen } from "../../assets";
 
 const CDP = () => {
   return (
-    <div className="mx-auto  max-w-7xl px-4 sm:px-6 md:my-20 lg:my-28 lg:px-8">
+    <div className="mx-auto bg-white max-w-7xl px-4 sm:px-6 md:my-20 lg:my-28 lg:px-8">
       <div className="text-center">
         <div className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
           Coding Decoded Principles

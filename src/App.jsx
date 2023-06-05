@@ -8,36 +8,44 @@ import Community from './components/community/Community';
 import WYG from './components/whatyouget/WYG';
 import HROH from './components/HROH/HROH';
 import L from './components/HROH/L';
+import OSPA from './components/OSPA/OSPA';
 
 function App() {
   return (
-    <div className='mx-auto  overflow-hidden '>
-      <div className="bg-[#111827]">
+    <div className='mx-auto bg-[#1e2125] overflow-hidden '>
+      <div >
         <div className="mx-auto max-w-7xl">
-              <div className=""> 
+              <div className="bg-[#1e2125]"> 
                 <Banner ></Banner>
               </div>
           </div>
       </div>
-      <div  className=" bg-white">
-        <div className="mx-auto max-w-7xl ">
+      <div  className=" bg-[#272a2e]">
+        <div className="mx-auto max-w-7xl py-auto py-10">
               <SocialMedia></SocialMedia>
         </div>
       </div>
-      <div className=''>
+      <div className="bg-white ">
         <div className='mx-auto max-w-7xl flex justify-center'>
           <CDP></CDP>
         </div>
       </div>
       <div>
-        <div>
+        <div className='bg-[#1c262c]'>
           <WYG></WYG>
         </div>
       </div>
       <div>
-        <div>
+        <div className='bg-[#eea1e118]'>
           <HROH></HROH>
           <L></L>
+        </div>
+      </div>
+      <div className='bg-white'>
+        <div>
+          <div>
+          <OSPA></OSPA>
+          </div>
         </div>
       </div>
       <div>
@@ -50,7 +58,7 @@ function App() {
           <FAQComponent></FAQComponent>
         </div>
       </div>
-      <div className="bg-[#1f2937]">
+      <div className="">
         <div className="mx-auto max-w-7xl">
           <Footer></Footer>
         </div>

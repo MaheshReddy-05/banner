@@ -104,7 +104,7 @@ const L = () => {
 
   return (
     <div>
-      <div className="mx-auto max-w-6xl px-4 sm:px-6 md:my-24 lg:my-16 lg:px-8">
+      <div className="mx-auto max-w-6xl px-4 sm:px-6 md:py-24 lg:py-16 lg:px-8">
         <div className="contributors">
           <div className="text-center">
             <div className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
