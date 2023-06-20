@@ -7,10 +7,10 @@ function SocialMedia() {
   const [telegramFollowers, setTelegramFollowers] = useState(0);
 
   // Set your desired follower counts
-  const youtubeCount = 15.9;
+  const youtubeCount = 16.1;
   const linkedinCount = 470;
   const faangCount = 500;
-  const telegramCount = 2;
+  const telegramCount = 2.1;
 
   useEffect(() => {
     const animateFollowers = () => {
@@ -22,7 +22,7 @@ function SocialMedia() {
           });
 
           setLinkedinFollowers((prevFollowers) => {
-            const nextFollowers = prevFollowers + linkedinCount / 100;
+            const nextFollowers = Math.ceil(prevFollowers + linkedinCount / 100);
             return nextFollowers <= linkedinCount ? nextFollowers : linkedinCount;
           });
 
@@ -39,7 +39,7 @@ function SocialMedia() {
 
         setTimeout(() => {
           clearInterval(interval);
-        }, 1000); // Delay of 1000ms (1 second) before clearing the interval
+        }, 90000); // Delay of 1000ms (1 second) before clearing the interval
       }, 1000); // Delay of 1000ms (1 second) before starting the animation
     };
 

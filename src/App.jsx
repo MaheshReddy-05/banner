@@ -36,19 +36,19 @@ function App() {
         </div>
       </div>
       <div>
-        <div className='bg-[#eea1e118]'>
+        <div className='bg-gray-100'>
           <HROH></HROH>
           <L></L>
         </div>
       </div>
       <div className='bg-white'>
         <div>
-          <div>
           <OSPA></OSPA>
+          <div>
           </div>
         </div>
       </div>
-      <div>
+      <div className='bg-white'>
         <div>
           <Community></Community>
         </div>
