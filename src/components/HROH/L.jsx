@@ -111,8 +111,6 @@ const L = () => {
               Contributors
             </div>
             <div className="my-4 mb-10 text-2sm leading-6 tracking-wide text-gray-500">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores,
-              fugiat.
             </div>
           </div>
           {contributors.length > 0 && (
