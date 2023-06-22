@@ -10,10 +10,7 @@ export default function () {
               Why Coding Decoded?
             </div>
             <div className="mt-4 text-2sm leading-6 tracking-wide text-[#717c9b]">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat
-              et, <br />
-              id placeat repellendus enim perspiciatis facilis voluptatum itaque
-              nulla aspernatur.
+            
             </div>
           </div>
           <div className="pt-10">
