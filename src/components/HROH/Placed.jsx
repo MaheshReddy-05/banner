@@ -6,62 +6,75 @@ import Iteam from "../slider/Iteam";
 export default function Placed() {
   const splideRef = useRef(null);
   const [activeSlide, setActiveSlide] = useState(0);
+  const [isMouseOver, setIsMouseOver] = useState(false);
 
   useEffect(() => {
     const interval = setInterval(() => {
-      splideRef.current.go(">")
-    }, 5000);
+      if (!isMouseOver) {
+        splideRef.current.go(">");
+      }
+    }, 3000);
 
     return () => {
       clearInterval(interval);
     };
-  }, []);
+  }, [isMouseOver]);
 
   const onSlideMoved = (splide) => {
     setActiveSlide(splide.index % 3);
   };
 
+  const handleMouseEnter = () => {
+    setIsMouseOver(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsMouseOver(false);
+  };
+
   return (
-    <Splide
-      ref={splideRef}
-      options={{
-        type: "loop",
-        height: "30rem",
-        drag: "free",
-        perPage: 1,
-        arrows: false,
-        pagination: false,
-        pauseOnHover: false, // Set pauseOnHover to false to prevent scrolling on hover
-        lazyLoad: "nearby",
-        gap: 5,
-        padding: {
-          right: "30%",
-          left: "37%"
-        }
-      }}
-      onMoved={onSlideMoved}
-    >
-      <SplideSlide>
-        <Iteam></Iteam>
-      </SplideSlide>
-      <SplideSlide>
-        <Iteam></Iteam>
-      </SplideSlide>
-      <SplideSlide>
-        <Iteam></Iteam>
-      </SplideSlide>
-      <SplideSlide>
-        <Iteam></Iteam>
-      </SplideSlide>
-      <SplideSlide>
-        <Iteam></Iteam>
-      </SplideSlide>
-      <SplideSlide>
-        <Iteam></Iteam>
-      </SplideSlide>
-      <SplideSlide>
-        <Iteam></Iteam>
-      </SplideSlide>
-    </Splide>
+    <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+      <Splide
+        ref={splideRef}
+        options={{
+          type: "loop",
+          height: "30rem",
+          drag: "free",
+          perPage: 1,
+          arrows: false,
+          pagination: false,
+          pauseOnHover: false,
+          lazyLoad: "nearby",
+          gap: 5,
+          padding: {
+            right: "30%",
+            left: "37%",
+          },
+        }}
+        onMoved={onSlideMoved}
+      >
+        <SplideSlide>
+          <Iteam></Iteam>
+        </SplideSlide>
+        <SplideSlide>
+          <Iteam></Iteam>
+        </SplideSlide>
+        <SplideSlide>
+          <Iteam></Iteam>
+        </SplideSlide>
+        <SplideSlide>
+          <Iteam></Iteam>
+        </SplideSlide>
+        <SplideSlide>
+          <Iteam></Iteam>
+        </SplideSlide>
+        <SplideSlide>
+          <Iteam></Iteam>
+        </SplideSlide>
+        <SplideSlide>
+          <Iteam></Iteam>
+        </SplideSlide>
+      </Splide>
+    </div>
   );
 }
