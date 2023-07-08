@@ -6,49 +6,41 @@ const FAQComponent = () => {
           <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
             Frequently Asked Questions
           </h2>
-          <p className="mt-4 max-w-xl text-base leading-relaxed text-gray-600 lg:mx-auto">
+          {/* <p className="mt-4 max-w-xl text-base leading-relaxed text-gray-600 lg:mx-auto">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, assumenda
-          </p>
+          </p> */}
         </div>
         <div className="mx-auto mt-8 grid max-w-3xl grid-cols-1 gap-6 md:mt-16 md:grid-cols-2">
           <div>
             <h2 className="text-xl font-semibold text-black">
-              C++ or Java or Python?
+            Does CGPA matter in industry or not?
             </h2>
             <p className="mt-6 text-sm leading-6 tracking-wide text-gray-500">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
-              aliquam adipisci iusto aperiam? Sint asperiores sequi nobis
-              inventore ratione deleniti?
+Having a good CGPA does give you an edge during the placement process, but once you enter the IT industry, it is never asked for.
             </p>
           </div>
           <div>
             <h2 className="text-xl font-semibold text-black">
-              Is CGPA matters?
+            Does College matter?
             </h2>
             <p className="mt-6 text-sm leading-6 tracking-wide text-gray-500">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
-              aliquam adipisci iusto aperiam? Sint asperiores sequi nobis
-              inventore ratione deleniti?
+Tier 1 colleges are known for their placements .However, if you land up at a Tier 2 or Tier 3 college, then you should build your profile so strong that all the colleges are willing to hire you.
             </p>
           </div>
           <div>
             <h2 className="text-xl font-semibold text-black">
-              How do I get started?
+            I am not from a CS background; can I still get a job in IT?
             </h2>
             <p className="mt-6 text-sm leading-6 tracking-wide text-gray-500">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
-              aliquam adipisci iusto aperiam? Sint asperiores sequi nobis
-              inventore ratione deleniti?
+Until you have skills and knowledge, your degree really does not matter. However, getting shortlisted for the first company can be challenging
             </p>
           </div>
           <div>
             <h2 className="text-xl font-semibold text-black">
-              How do I get started?
+            Importance of System Design for college students?
             </h2>
             <p className="mt-6 text-sm leading-6 tracking-wide text-gray-500">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
-              aliquam adipisci iusto aperiam? Sint asperiores sequi nobis
-              inventore ratione deleniti?
+Companies do not ask system design questions directly in interviews, however, before you enter the industry, in-depth knowledge of system design can take you miles ahead.
             </p>
           </div>
         </div>

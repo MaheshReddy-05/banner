@@ -1,10 +1,14 @@
 import React from "react";
-import amazonLogo from "../../assets/images/SVG/amazon.png";
+import amazonLogo from "../../assets/images/SVG/amazonLogo.png";
 import googleLogo from "../../assets/images/SVG/mp.png";
-// import metaLogo from "../../assets/images/SVG/meta.png";
+import RZPay from "../../assets/images/SVG/RZPay.png";
+import Microsoft from "../../assets/images/SVG/Microsoft.png";
+import Adobe from "../../assets/images/SVG/Adobe.png";
+import Flipkart from "../../assets/images/SVG/Flipkart.png";
+import Goldman from "../../assets/images/SVG/Goldman.png";
 
 const OSPA = () => {
-  const companyImages = [amazonLogo, googleLogo, amazonLogo];
+  const companyImages = [amazonLogo, googleLogo, Microsoft,RZPay,Adobe,Flipkart,Goldman];
 
   return (
     <div className="mx-auto max-w-6xl px-4 sm:px-6 md:py-24 lg:py-16 lg:px-8">
@@ -18,7 +22,7 @@ const OSPA = () => {
               key={index}
               src={imageUrl}
               alt={`Company ${index + 1}`}
-              className={`w-40 h-24 object-contain m-4 ${index === 1 ? 'h-40' : ''}`}
+              className={`w-40 h-24 object-contain m-4`}
               style={{ maxHeight: "60px", maxWidth: "100%", margin: "20px 30px" }}
             />
           ))}
