@@ -5,7 +5,7 @@ function Footer() {
     <footer className=" py-8">
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap justify-between">
-          <div className="w-full md:w-1/4">
+          <div className="w-full md:w-1/3">
             <h5 className="text-lg font-semibold text-white mb-4">Company</h5>
             <ul className="text-gray-400">
               <li className="mb-2">
@@ -22,24 +22,7 @@ function Footer() {
               </li>
             </ul>
           </div>
-          <div className="w-full md:w-1/4">
-            <h5 className="text-lg font-semibold text-white mb-4">Resources</h5>
-            <ul className="text-gray-400">
-              <li className="mb-2">
-                <a href="#blog" className="hover:text-white">Blog</a>
-              </li>
-              <li className="mb-2">
-                <a href="#faq" className="hover:text-white">FAQ</a>
-              </li>
-              <li className="mb-2">
-                <a href="#privacy" className="hover:text-white">Privacy Policy</a>
-              </li>
-              <li className="mb-2">
-                <a href="#terms" className="hover:text-white">Terms of Service</a>
-              </li>
-            </ul>
-          </div>
-          <div className="w-full md:w-1/4">
+          <div className="w-full md:w-1/3">
             <h5 className="text-lg font-semibold text-white mb-4">Social</h5>
             <ul className="text-gray-400">
               <li className="mb-2">
@@ -56,7 +39,7 @@ function Footer() {
               </li>
             </ul>
           </div>
-          <div className="w-full md:w-1/4">
+          <div className="w-full md:w-1/3">
             <h5 className="text-lg font-[Poppins] text-white mb-4">Newsletter</h5>
             <p className="text-gray-400 font-[Poppins]">Subscribe to our newsletter to receive updates and exclusive offers.</p>
             {/* Newsletter form can be added here */}

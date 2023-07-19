@@ -59,7 +59,7 @@ function App() {
         </div>
       </div>
       <div className="">
-        <div className="mx-auto max-w-7xl">
+        <div className="mx-auto max-w-7xl py-auto py-10 px-20">
           <Footer></Footer>
         </div>
       </div>
