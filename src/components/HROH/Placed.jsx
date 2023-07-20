@@ -11,6 +11,8 @@ import AdamKniffin from "../../assets/images/HROH/AdamKniffin.jpg"
 import YajasSardana from "../../assets/images/HROH/YajasSardana.jpg"
 import AbhishekJain from "../../assets/images/HROH/AbhishekJ.jpg"
 import SonalKumar from "../../assets/images/HROH/SonalKumar.jpg"
+import PranavSharma from "../../assets/images/HROH/PranavSharma.jpg"
+import RajatKumar from "../../assets/images/HROH/RajatKumar.jpg"
 
 export default function Placed() {
   const splideRef = useRef(null);
@@ -78,6 +80,20 @@ export default function Placed() {
       id: 9,
       image: SonalKumar,
       name: "Sonal Kumar",
+      role: "",
+      about: "",
+    },
+    {
+      id: 10,
+      image: PranavSharma,
+      name: "Pranav Sharma",
+      role: "SWE @ Qualcomm",
+      about: "",
+    },
+    {
+      id: 11,
+      image: RajatKumar,
+      name: "Rajat Kumar",
       role: "",
       about: "",
     },

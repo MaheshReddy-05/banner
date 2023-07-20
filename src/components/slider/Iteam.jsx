@@ -14,13 +14,13 @@ export function TeamItem(probs){
           />
           <h3 className="text-lg font-semibold mt-4 mb-1">{probs.name}</h3>
           <div className="team-info">
-            <p className="text-gray-600">Head of SEO</p>
+            <p className="text-gray-600">{probs.role}</p>
           </div>
           <br />
           <p className="text-gray-700">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, vero?
           </p>
-          <button className='mt-5 py-2 px-4 bg-rose-400 rounded-md'>Connect </button>
+          <button className='mt-5 py-2 px-4 bg-[#0a66c2] rounded-md text-white'>Connect </button>
         </div>
       </div>
       </a>
