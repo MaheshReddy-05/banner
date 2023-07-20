@@ -1,5 +1,5 @@
 import React from "react";
-import { CB, FC, GT, Gen } from "../../assets";
+import { ClickBait, NFC, LGT, BeGenuine } from "../../assets";
 
 const CDP = () => {
   return (
@@ -16,7 +16,7 @@ const CDP = () => {
       <div className="mt-12 grid grid-cols-1 pt-5 gap-y-8 text-center sm:grid-cols-2 sm:gap-12 lg:grid-cols-4">
         <div>
           <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-gray-100">
-            <img src={CB} alt="ClickB" />
+            <img src={ClickBait} alt="ClickB" />
           </div>
           <h3 className="mt-8 text-lg font-semibold text-black">
             No Click Baits
@@ -28,7 +28,7 @@ const CDP = () => {
         </div>
         <div>
           <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-gray-100">
-            <img src={Gen} alt="Genuine" />
+            <img src={BeGenuine} alt="Genuine" />
           </div>
           <h3 className="mt-8 text-lg font-semibold text-black">Be Genuine</h3>
           <p className="mt-4 text-sm text-gray-600">
@@ -38,7 +38,7 @@ const CDP = () => {
         </div>
         <div>
           <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-gray-100">
-            <img src={FC} alt="FalseC" />
+            <img src={NFC} alt="FalseC" />
           </div>
           <h3 className="mt-8 text-lg font-semibold text-black">
             No false claims
@@ -50,7 +50,7 @@ const CDP = () => {
         </div>
         <div>
           <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-gray-100">
-            <img src={GT} alt="Grow Together" />
+            <img src={LGT} alt="Grow Together" />
           </div>
           <h3 className="mt-8 text-lg font-semibold text-black">
             Let us grow together
