@@ -1,12 +1,6 @@
 import React from 'react';
-import Lottie from 'lottie-react';
 import '@dotlottie/player-component';
-import manm from '../../assets/images/JCF/hero.lottie';
-import lld from '../../assets/images/JCF/LLD.json';
-
-const style = {
-  height: 250,
-};
+import manm from '../../assets/images/Hero/hero.lottie';
 
 function Lotti() {
   return (
@@ -23,14 +17,3 @@ function Lotti() {
 }
 
 export default Lotti;
-
-
-
-
-export function LLD() {
-  return (
-    <div className=''>
-      <Lottie animationData={lld}  style={style} />
-    </div>
-  );
-  }  
