@@ -6,7 +6,10 @@ import ClickBait from "./images/Principles/ClickBait.png"
 import BeGenuine from "./images/Principles/BeGenuine.png"
 import NFC from "./images/Principles/NFC.png"
 import LGT from "./images/Principles/LGT.png"
-import DS from "./images/WCD/DataStructures.jpeg"
+// WCD
+import DS from "./images/WCD/DSA.jpeg"
+import LLD from "./images/WCD/LLD.jpeg"
+import TS from "./images/WCD/TechnicalSkills.jpeg"
 export {
   linkedin,
   telegram,
@@ -17,4 +20,6 @@ export {
   NFC,
   LGT,
   DS,
+  LLD,
+  TS,
 };
